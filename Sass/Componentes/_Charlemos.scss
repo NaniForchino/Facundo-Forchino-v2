@@ -1,0 +1,107 @@
+.titulo-charlemos{
+    margin-bottom: 80px;
+    padding-top: 100px;
+    font-size: 50px;
+    border-bottom: 2px var(--verde) solid;
+    text-align: center; 
+}
+
+.titulo-footer{
+    color: var(--verde);
+}
+
+.charlemos{
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.charlemos p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.footer{
+    margin: auto;
+}
+
+.form {
+    background: var(--negro2);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 3px 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.label{
+
+    display: block;
+    color: var(--gris);
+    font-size: 16px;
+    position: relative;    
+    
+}
+
+/* ESTO DESACTIVA EL CONTROLADOR DE LOS NUMEROS EN EL INPUT NUMBER*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* ESTO DESACTIVA EL CONTROLADOR DE LOS NUMEROS EN EL INPUT NUMBER*/
+
+
+ .formulario-input, .formulario-textarea{
+    background: var(--negro2);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--verde);
+    width: 96%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: var(--blanco);
+}
+
+.formulario-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.btn-submit{
+    width: 100%;
+    outline: none;
+    background: var(--verde);
+    font-size: 16px;
+    border: none;
+    color: var(--blanco);
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.flecha-arriba{
+    text-align: center;
+}
+
+.cierre{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    .cierre {
+        text-align: center;
+    }
+}

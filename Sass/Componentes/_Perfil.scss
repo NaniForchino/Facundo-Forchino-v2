@@ -1,0 +1,26 @@
+.titulo-perfil{
+    margin-bottom: 80px;
+    padding-top: 100px;
+    font-size: 50px;
+    border-bottom: 2px var(--verde) solid;
+    text-align: center;  
+}
+
+
+.perfil{
+    margin: 30px;
+    margin-bottom: 80px;   
+    display: grid;
+    text-align: center;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;   
+    
+}
+
+.imagen-perfil{
+    display: grid;
+    justify-content: center; 
+}
+
+.foto{
+    width: 100%;
+}

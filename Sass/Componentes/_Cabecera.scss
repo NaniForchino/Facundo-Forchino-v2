@@ -1,0 +1,33 @@
+.fondo{
+    width: 100%;
+    height: 657px;
+    background: fixed no-repeat 50% 50%;
+    background-image: url(Imagenes/tele.jpg);
+    opacity: initial 50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 767px) {
+    .fondo {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.cabecera{
+    padding-top: 200px;
+    margin-bottom: 220px;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    .cabecera {
+        padding-top: 250px;
+        padding-right: 10%;
+    }
+}
+

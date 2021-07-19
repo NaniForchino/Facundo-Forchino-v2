@@ -1,0 +1,21 @@
+.titulo-formacion{
+    margin-bottom: 80px;
+    padding-top: 100px;
+    font-size: 50px;
+    border-bottom: 2px var(--verde) solid;
+    text-align: center; 
+}
+
+.formacion{
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.item-formacion{
+    list-style: none;
+}
+
+.contenido-formacion{
+    display: grid;
+    grid-template-columns: 30% 70%;  
+}

@@ -1,0 +1,32 @@
+.titulo-experiencia{
+    margin-bottom: 80px;
+    padding-top: 100px;
+    font-size: 50px;
+    border-bottom: 2px var(--verde) solid;
+    text-align: center;    
+}
+
+.experiencia{
+    margin: 30px;
+    margin-bottom: 80px;
+}
+
+.experiencia1{
+    display: grid;
+    grid-template-columns: 30% 70%;   
+}
+
+.experiencia2{
+    display: grid;
+    grid-template-columns: 30% 70%;    
+}
+
+.experiencia3{
+    display: grid;
+    grid-template-columns: 30% 70%;    
+}
+
+.item-lista{
+    list-style: none;
+}
+

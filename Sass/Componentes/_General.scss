@@ -1,0 +1,18 @@
+body{
+    /*background-image: url(fondo.jpg);*/
+    color: var(--negro);
+    margin:0%;
+    background-color: var(--gris);
+    font-family: 'Pridi', serif;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenido{
+    /*background-color: grey;*/
+     margin: 0;
+     max-width: 100%;
+ }
