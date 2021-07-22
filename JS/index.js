@@ -74,8 +74,8 @@ sr.reveal('.perfil', {
     distance: '-100px'
   });
 
-  sr.reveal('.flecha', {
+   sr.reveal('.flecha', {
     duration: 3000,
     origin: 'top',
     distance: '-100px'
-  });
+  }); 
