@@ -14,13 +14,13 @@ sr.reveal('.fixed', {
 
   sr.reveal('.frase1', {
     duration: 5000,
-    origin: 'right',
+    origin: 'bottom',
     distance: '-100px'
   });
   
   sr.reveal('.frase2', {
     duration: 5000,
-    origin: 'left',
+    origin: 'bottom',
     distance: '-100px'
   });
 
